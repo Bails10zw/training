@@ -82,7 +82,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Bails10zw/training/main/getting_started/exercises/congress_letter_exercise.xml?person_annotation_20221207164835673#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/signed/persName"
+			"rdf:value": "TEI/text/body[2]/closer/signed/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -160,7 +160,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Bails10zw/training/main/getting_started/exercises/congress_letter_exercise.xml?person_annotation_20221207165006753#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/signed[2]/persName"
+			"rdf:value": "TEI/text/body[2]/closer/signed[2]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -238,7 +238,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Bails10zw/training/main/getting_started/exercises/congress_letter_exercise.xml?person_annotation_20221207165119476#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/signed[5]/persName"
+			"rdf:value": "TEI/text/body[2]/closer/signed[5]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -316,7 +316,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Bails10zw/training/main/getting_started/exercises/congress_letter_exercise.xml?person_annotation_20221207165200510#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/signed[6]/persName"
+			"rdf:value": "TEI/text/body[2]/closer/signed[6]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -394,7 +394,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Bails10zw/training/main/getting_started/exercises/congress_letter_exercise.xml?person_annotation_20221207165317279#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/signed[3]/persName"
+			"rdf:value": "TEI/text/body[2]/closer/signed[3]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -472,7 +472,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Bails10zw/training/main/getting_started/exercises/congress_letter_exercise.xml?person_annotation_20221207165336387#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/signed[4]/persName"
+			"rdf:value": "TEI/text/body[2]/closer/signed[4]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -550,7 +550,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Bails10zw/training/main/getting_started/exercises/congress_letter_exercise.xml?note_annotation_20221207170802508#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note"
+			"rdf:value": "TEI/text/body[2]/p/note"
 		}
 	},
 	"oa:hasBody": {
@@ -570,10 +570,8 @@
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
-         <pb facs="https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/congress_letter_image1.jpg"/>
-        
-         <opener>To the Honorable the Senate and House of Representatives of the United States in
-            Congress Assembled:</opener>
+         <pb facs="https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/congress_letter_image1.jpg"></pb></body><body><pb facs="https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/congress_letter_image1.jpg">To the Honorable the Senate and House of Representatives of the United States in
+            Congress Assembled:</pb>
          <p>The undersigned, Citisens of the United States, believing that under the present Federal
             Constitution all women who are citisens of the United States have the right to vote<note type="researchNote">Revisit</note>,
             pray your Honorable Body to enact a law during the present session <hi cert="high" xml:space="default" rendition="underline">that shall assist and protect them in the exercise of that right</hi> </p>
